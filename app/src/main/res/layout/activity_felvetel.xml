@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextNev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Név"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/editTextMennyiseg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mennyiség"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <EditText
+        android:id="@+id/editTextAr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Darab ár"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+    <EditText
+        android:id="@+id/editTextKategoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kategória"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="183dp" />
+
+    <Button
+        android:id="@+id/buttonHozzaAd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hozzáadás"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <Button
+        android:id="@+id/buttonMegse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mégse"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="299dp" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
